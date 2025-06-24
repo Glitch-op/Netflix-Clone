@@ -14,7 +14,7 @@ A responsive and visually engaging **Netflix India** clone built using **HTML** 
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 (Custom animations, Flexbox layout)
+- CSS3 
 
 ## 📸 Screenshots
 
