@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+main {
+    background-image: url(assets/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 63vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-black {
+    background-color: rgb(0, 0, 0);
+    opacity: .69;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 63vh;
+    width: 100%;
+    position: absolute;
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav>img {
+
+    margin-top: 20px;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.nav .btn1 {
+    margin-top: 20px;
+    padding: 7px 15px;
+    background-color: rgba(0, 0, 0, 0.193);
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 6px;
+
+}
+
+.nav .btn2 {
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.trend {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    position: relative;
+    z-index: 10;
+    top: 80px;
+    max-width: 390px;
+    text-align: center;
+    /* left: 560px; */
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+}
+
+.h1text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 80px;
+    z-index: 10;
+}
+
+.h2text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 90px;
+    z-index: 10;
+}
+
+.h3text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 100px;
+    z-index: 10;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    position: relative;
+    top: 130px;
+}
+
+input {
+    padding: 14px 35px 14px 10px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    border-radius: 20px;
+    position: relative;
+    z-index: 12;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border: 1px solid red;
+    border-radius: 29px;
+    padding: 20px 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.separator {
+    width: 100vw;
+    height: 5px;
+    background-color: rgba(72, 70, 70, 0.829);
+}
+
+.trend {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 18px;
+    left: -28px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+
+.img:hover {
+    animation: pop 200ms ease-out 1;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 3px 10px 2px white;
+
+    .no {
+        animation: pop 200ms ease-out 1;
+        animation-fill-mode: forwards;
+        box-shadow: 3px 3px 10px 2px white;
+    }
+}
+
+.img {
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.no {
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 1.5rem rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    left: 20px;
+}
+
+@keyframes pop {
+    from {}
+
+    to {
+        transform: translateX(3px) translateY(3px) translateZ(3px);
+    }
+}
+
+.plans {
+    color: white;
+    position: relative;
+    top: 100px;
+    margin: 3px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    left: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    overflow: hidden;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #130e22;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.box h1 {
+    color: aliceblue;
+    padding: 0px 15px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.box h2 {
+    color: #bbb8c1;
+    padding: 8px 15px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    /* margin: 2px 0; */
+}
+
+.box span {
+    color: #bbb8c1;
+    padding: 0px 10px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 6px 0;
+}
+.price{
+    color: #bbb8c1;
+    position: absolute;
+    bottom: 0px;
+}
+.box:hover{
+    box-shadow: 0 0 10px 2px #59216e;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    background-color: #241641;
+    cursor: pointer;
+}
+
+.faq {
+    color: white;
+    position: relative;
+    top: 190px;
+    margin: 3px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    left: 50px;
+}
+.que{
+    color: white;
+    position: relative;
+    top: 220px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 600;
+    left: 50px;
+    background-color: rgb(39 39 39);
+    padding: 28px;
+    margin: 12px;
+    border-radius: 13px;
+    width: auto;
+}
+.que:hover{
+    background-color: rgb(63 63 63);
+    cursor: pointer;
+}
+
+.foot{
+    position: relative;
+    top: 300px;
+    color: rgb(63 63 63);
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.foot2{
+    text-align: center;
+}
+.foot3{
+    position: relative;
+    top: 320px;
+    color: rgb(63 63 63);
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.author{
+    position: relative;
+    top: 340px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+ 
